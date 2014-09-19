@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui" />
+    <title>SegmentFault Status</title>
+    <link rel="stylesheet" href="http://cdn.staticfile.org/normalize/3.0.1/normalize.min.css">
+    <style>
+    body {
+        font-family: monospace;
+        line-height: 1.5;
+        font-size: 13px;
+    }
+    a {
+        color: #008E59;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #004229;
+    }
+
+
+    /* layout */
+    .container {
+        margin: 20px auto;
+        padding: 15px;
+        max-width: 800px;
+    }
+
+    .header {
+        padding: 20px 15px 6px;
+        text-align: center;
+    }
+
+    .logo img {
+        width: 194px;
+        height: 36px;
+    }
+
+    /* header nav */
+    .nav {
+        float: right;
+        color: #ddd;
+    }
+    .nav a {
+        margin-left: 10px;
+    }
+
+
+    /* change item */
+    .changelog-item {
+        margin: 2em 0;
+    }
+    .changelog-item time {
+        display: block;
+        padding-bottom: 5px;
+        font-size: 1.25em;
+        font-weight: bold;
+    }
+
+    .changelog-item time a {
+        color: #000;
+        text-decoration: underline;
+    }
+
+    .changelog-item time a:hover {
+        text-decoration: none;
+    }
+
+    /* change list */
+    .changelist {
+        list-style: none;
+        margin-left: 2em;
+        padding: 0;
+        position: relative;
+    }
+    .changelist li {
+        margin-bottom: 5px;
+    }
+
+    .bug:before,
+    .feature:before {
+        position: absolute;
+        left: -2em;
+        content: "\2714 -";
+        display: inline-block;
+        width: 2em;
+        color: #D0021B;
+    }
+    .feature:before {
+        content: "\2714 +";
+        color: #009a61;
+    }
+
+
+    /* page nav */
+    .pagenav { text-align: center; }
+    .pagenav a { margin: 0 10px; }
+
+    .archive-list {
+        padding-left: 25px;
+        list-style: square;
+    }
+
+
+    /* footer */
+    .footer {
+        margin-top: 50px;
+        padding-top: 20px;
+        border-top: 1px solid #ddd;
+        color: #999;
+    }
+    .footer a {
+        color: #999;
+    }
+
+    /* help class */
+    .clearfix:before, .clearfix:after {
+        content: " ";
+        display: table;
+    }
+    .clearfix:after {
+        clear: both;
+    }
+    </style>
+</head>
+<body>
+    <header class="header clearfix">
+        <a href="/" class="logo"><img src="http://static.segmentfault.com/global/img/logo.svg" alt="SegmentFault Status"></a>
+    </header><!-- end .header -->
+    <div class="container">
+
+<div class="col-main" role="main">
+
+<h2 class="h4" id="archive-2014.09">2014.09</h2>
+<ul>
+<li><a href="/posts/changelog_2014-09-19.html">2014年9月19日更新</a></li>
+</ul>
+</div>
+
+<footer class="footer clearfix">
+            <nav class="nav">
+                <a href="http://segmentfault.com" target="_blank">Home</a>
+                <a href="https://github.com/SegmentFault" target="_blank">GitHub</a>
+                <a href="http://weibo.com/segmentfault" target="_blank">Weibo</a>
+            </nav>
+            Powered by <a href="https://github.com/typecho/logecho">Logecho</a>
+        </footer>
+    </div>
+</body>
+</html>

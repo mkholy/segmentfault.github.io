@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui" />
+    <title>SegmentFault Status</title>
+    <link rel="stylesheet" href="http://cdn.staticfile.org/normalize/3.0.1/normalize.min.css">
+    <style>
+    body {
+        font-family: monospace;
+        line-height: 1.5;
+        font-size: 13px;
+    }
+    a {
+        color: #008E59;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #004229;
+    }
+
+
+    /* layout */
+    .container {
+        margin: 20px auto;
+        padding: 15px;
+        max-width: 800px;
+    }
+
+    .header {
+        padding: 20px 15px 6px;
+        text-align: center;
+    }
+
+    .logo img {
+        width: 194px;
+        height: 36px;
+    }
+
+    /* header nav */
+    .nav {
+        float: right;
+        color: #ddd;
+    }
+    .nav a {
+        margin-left: 10px;
+    }
+
+
+    /* change item */
+    .changelog-item {
+        margin: 2em 0;
+    }
+    .changelog-item time {
+        display: block;
+        padding-bottom: 5px;
+        font-size: 1.25em;
+        font-weight: bold;
+    }
+
+    .changelog-item time a {
+        color: #000;
+        text-decoration: underline;
+    }
+
+    .changelog-item time a:hover {
+        text-decoration: none;
+    }
+
+    /* change list */
+    .changelist {
+        list-style: none;
+        margin-left: 2em;
+        padding: 0;
+        position: relative;
+    }
+    .changelist li {
+        margin-bottom: 5px;
+    }
+
+    .bug:before,
+    .feature:before {
+        position: absolute;
+        left: -2em;
+        content: "\2714 -";
+        display: inline-block;
+        width: 2em;
+        color: #D0021B;
+    }
+    .feature:before {
+        content: "\2714 +";
+        color: #009a61;
+    }
+
+
+    /* page nav */
+    .pagenav { text-align: center; }
+    .pagenav a { margin: 0 10px; }
+
+    .archive-list {
+        padding-left: 25px;
+        list-style: square;
+    }
+
+
+    /* footer */
+    .footer {
+        margin-top: 50px;
+        padding-top: 20px;
+        border-top: 1px solid #ddd;
+        color: #999;
+    }
+    .footer a {
+        color: #999;
+    }
+
+    /* help class */
+    .clearfix:before, .clearfix:after {
+        content: " ";
+        display: table;
+    }
+    .clearfix:after {
+        clear: both;
+    }
+    </style>
+</head>
+<body>
+    <header class="header clearfix">
+        <a href="/" class="logo"><img src="http://static.segmentfault.com/global/img/logo.svg" alt="SegmentFault Status"></a>
+    </header><!-- end .header -->
+    <div class="container">
+
+    <div class="col-main" role="main">
+        <section class="changelog-item">
+                <time>2014年9月19日更新</time>
+                <hr />
+                <article>
+                
+
+<p>[bug] 修正邮件中的链接错误<br>
+[bug] 修正Markdown的不安全代码过滤不严导致的XSS问题<br>
+[bug] 修正邀请注册链接失效问题<br>
+[bug] 修正草稿页面显示问题<br>
+[bug] 恢复问题和文章的浏览数据<br>
+[bug] 修正草稿编辑时的XSS问题<br>
+[bug] 修正搜索特殊字符时出现的错误<br>
+[bug] 修正评论url跳转出现404的错误<br>
+[bug] 修正提问或者写文章可以使用空白字符的问题<!-- more --><br>
+[bug] 修正个性网址可以输入中文的问题<br>
+[bug] 修正blog.sf.gg的不正常跳转<br>
+[bug] 修复用户绑定解绑的ajax错误<br>
+[bug] 修复用户下拉菜单被其他元素遮挡<br>
+[bug] 修复部分站内图片没有加显示原图链接<br>
+[bug] 修复编辑页面标签的显示错位<br>
+[bug] 从收藏消息进入文章详情不显示评论的错误<br>
+[bug] 修复about页面的链接<br>
+[bug] 修复空标题空内容的自动保存<br>
+[bug] 修复 tag popover 文字对齐<br>
+[bug] 修复 about 页面 blog 错误地址<br>
+[bug] 修复答案详情页图片 100% 宽度问题<br>
+[bug] 修复消息页跳转之后的对产生消息的内容的提示<br>
+[bug] 修复Firefox下撰写页面添加标签自动补全<br>
+[bug] 修复撰写页面跳转前弹出未保存提示</p>
+
+<p>[feature] 当用户在网址后面加上斜杠<code>/</code>时, 帮助用户跳转到正确的页面<br>
+[feature] 改进了个人设置页form提交的实现<br>
+[feature] 增加了微信分享弹窗的关闭按钮<br>
+[feature] 增加顶部提示栏关闭按钮<br>
+[feature] 文章问题页面顶部添加“编辑”链接<br>
+[feature] 改进子站侧栏展示<br>
+[feature] 改进微博邀请的内容<br>
+[feature] 改进个人设置form的提交方式<br>
+[feature] 邀请注册的页面<br>
+[feature] 调整未登录底部登录按钮在小屏的样式</p>
+
+                </article>
+        </section>
+    </div>
+
+<footer class="footer clearfix">
+            <nav class="nav">
+                <a href="http://segmentfault.com" target="_blank">Home</a>
+                <a href="https://github.com/SegmentFault" target="_blank">GitHub</a>
+                <a href="http://weibo.com/segmentfault" target="_blank">Weibo</a>
+            </nav>
+            Powered by <a href="https://github.com/typecho/logecho">Logecho</a>
+        </footer>
+    </div>
+</body>
+</html>

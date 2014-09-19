@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule"
+>
+<title type="text">My Blog Site</title>
+<subtitle type="text">Yet another logecho site</subtitle>
+<updated>2014-09-19T00:00:00+08:00</updated>
+<link rel="alternate" type="text/html" href="http://status.segmentfault.com/" />
+<link rel="self" type="application/atom+xml" href="http://status.segmentfault.com/feeds.xml" />
+<id>http://status.segmentfault.com/feeds.xml</id>
+<creativeCommons:license>http://www.creativecommons.org/licenses/by-sa/2.5/rdf</creativeCommons:license>
+<entry>
+<title type="text">2014年9月19日更新</title>
+<link rel="alternate" type="text/html" href="http://status.segmentfault.com/posts/changelog_2014-09-19.html" />
+<id>http://status.segmentfault.com/posts/changelog_2014-09-19.html</id>
+<updated>2014-09-19T00:00:00+08:00</updated>
+<published>2014-09-19T00:00:00+08:00</published>
+<author>
+<name>Logecho</name>
+<uri>http://status.segmentfault.com/</uri>
+</author>
+<category scheme="/archives.html#category-changelog" term="更新" />
+<summary type="html">
+
+&lt;p&gt;[bug] 修正邮件中的链接错误&lt;br&gt;
+[bug] 修正Markdown的不安全代码过滤不严导致的XSS问题&lt;br&gt;
+[bug] 修正邀请注册链接失效问题&lt;br&gt;
+[bug] 修正草稿页面显示问题&lt;br&gt;
+[bug] 恢复问题和文章的浏览数据&lt;br&gt;
+[bug] 修正草稿编辑时的XSS问题&lt;br&gt;
+[bug] 修正搜索特殊字符时出现的错误&lt;br&gt;
+[bug] 修正评论url跳转出现404的错误&lt;br&gt;
+[bug] 修正提问或者写文章可以使用空白字符的问题&lt;!-- more --&gt;&lt;br&gt;
+[bug] 修正个性网址可以输入中文的问题&lt;br&gt;
+[bug] 修正blog.sf.gg的不正常跳转&lt;br&gt;
+[bug] 修复用户绑定解绑的ajax错误&lt;br&gt;
+[bug] 修复用户下拉菜单被其他元素遮挡&lt;br&gt;
+[bug] 修复部分站内图片没有加显示原图链接&lt;br&gt;
+[bug] 修复编辑页面标签的显示错位&lt;br&gt;
+[bug] 从收藏消息进入文章详情不显示评论的错误&lt;br&gt;
+[bug] 修复about页面的链接&lt;br&gt;
+[bug] 修复空标题空内容的自动保存&lt;br&gt;
+[bug] 修复 tag popover 文字对齐&lt;br&gt;
+[bug] 修复 about 页面 blog 错误地址&lt;br&gt;
+[bug] 修复答案详情页图片 100% 宽度问题&lt;br&gt;
+[bug] 修复消息页跳转之后的对产生消息的内容的提示&lt;br&gt;
+[bug] 修复Firefox下撰写页面添加标签自动补全&lt;br&gt;
+[bug] 修复撰写页面跳转前弹出未保存提示&lt;/p&gt;
+
+&lt;p&gt;[feature] 当用户在网址后面加上斜杠&lt;code&gt;/&lt;/code&gt;时, 帮助用户跳转到正确的页面&lt;br&gt;
+[feature] 改进了个人设置页form提交的实现&lt;br&gt;
+[feature] 增加了微信分享弹窗的关闭按钮&lt;br&gt;
+[feature] 增加顶部提示栏关闭按钮&lt;br&gt;
+[feature] 文章问题页面顶部添加“编辑”链接&lt;br&gt;
+[feature] 改进子站侧栏展示&lt;br&gt;
+[feature] 改进微博邀请的内容&lt;br&gt;
+[feature] 改进个人设置form的提交方式&lt;br&gt;
+[feature] 邀请注册的页面&lt;br&gt;
+[feature] 调整未登录底部登录按钮在小屏的样式&lt;/p&gt;
+</summary>
+</entry>
+</feed>
