@@ -4,11 +4,61 @@ xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule"
 >
 <title type="text">My Blog Site</title>
 <subtitle type="text">Yet another logecho site</subtitle>
-<updated>2014-09-19T00:00:00+08:00</updated>
+<updated>2014-09-22T00:00:00+08:00</updated>
 <link rel="alternate" type="text/html" href="http://status.segmentfault.com/" />
 <link rel="self" type="application/atom+xml" href="http://status.segmentfault.com/feeds.xml" />
 <id>http://status.segmentfault.com/feeds.xml</id>
 <creativeCommons:license>http://www.creativecommons.org/licenses/by-sa/2.5/rdf</creativeCommons:license>
+<entry>
+<title type="text">2014年9月22日更新</title>
+<link rel="alternate" type="text/html" href="http://status.segmentfault.com/posts/changelog_2014-09-22.html" />
+<id>http://status.segmentfault.com/posts/changelog_2014-09-22.html</id>
+<updated>2014-09-22T00:00:00+08:00</updated>
+<published>2014-09-22T00:00:00+08:00</published>
+<author>
+<name>Logecho</name>
+<uri>http://status.segmentfault.com/</uri>
+</author>
+<category scheme="/archives.html#category-changelog" term="更新" />
+<summary type="html">
+
+&lt;p&gt;[bug] 修正登录时无法记录状态的问题&lt;br&gt;
+[bug] 再次修正浏览数据问题&lt;br&gt;
+[bug] 修正判断不严导致的重复绑定第三方账号问题&lt;br&gt;
+[bug] 修正搜索时出现奇怪符号以及搜索结果不正确的问题&lt;br&gt;
+[bug] 修正点赞数据错误的问题&lt;br&gt;
+[bug] 修正登录后跳转url错误的问题&lt;br&gt;
+[bug] 修正设置提醒邮件选项却无实际效果&lt;br&gt;
+[bug] 修复生成图片预览链接的时候产生的复制图片&lt;br&gt;
+[bug] 修复手机页面可以横向滑动的问题&lt;br&gt;
+[bug] 修复 favicon 图片权限问题&lt;br&gt;
+[bug] 修复搜索结果页面侧栏第三方搜索引擎链接&lt;br&gt;
+[bug] 修复个人 profile 符号转义问题&lt;br&gt;
+[bug] 修复回答问题的编辑器不支持tab触发，改为focus后渲染&lt;br&gt;
+[bug] 修复撰写页面tag重复渲染&lt;br&gt;
+[bug] 修复消息页消息点击后变灰&lt;!--more--&gt;&lt;br&gt;
+[bug] 用户个人设置页面修改已存在用户报错&lt;br&gt;
+[bug] 个人博客页面不显示已隐藏和旧版草稿&lt;br&gt;
+[bug] 子站提问没有默认标签&lt;/p&gt;
+
+&lt;p&gt;[feature] 增加问题关注接口&lt;br&gt;
+[feature] 干掉顶部欢迎语句&lt;br&gt;
+[feature] 增加删除收藏夹时的文案提醒&lt;br&gt;
+[feature] 增加声望过低投票的提示&lt;br&gt;
+[feature] 增加子站提问时强制绑定子站标签&lt;br&gt;
+[feature] 增加评论提交过程中禁用提交按钮&lt;br&gt;
+[featrue] 增加修改密码时的确认密码及新密码的填写&lt;br&gt;
+[feature] 增加问题的关注&lt;br&gt;
+[feature] 申请博客页面提交的路由&lt;br&gt;
+[feature] 改进标签延迟加载速度&lt;br&gt;
+[feature] 改进 event 页面移动端展示&lt;br&gt;
+[feature] 改进表单聚焦样式&lt;br&gt;
+[feature] 简化投票写法，添加读屏器识别特性&lt;br&gt;
+[feature] 强化标签列表样式结构&lt;br&gt;
+[feature] 改进评论 markdown 样式&lt;br&gt;
+[feature] 改进未安装flash插件时不再显示代码的copy功能&lt;/p&gt;
+</summary>
+</entry>
 <entry>
 <title type="text">2014年9月19日更新</title>
 <link rel="alternate" type="text/html" href="http://status.segmentfault.com/posts/changelog_2014-09-19.html" />
