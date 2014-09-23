@@ -4,11 +4,36 @@ xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule"
 >
 <title type="text">My Blog Site</title>
 <subtitle type="text">Yet another logecho site</subtitle>
-<updated>2014-09-22T00:00:00+08:00</updated>
+<updated>2014-09-23T00:00:00+08:00</updated>
 <link rel="alternate" type="text/html" href="http://status.segmentfault.com/" />
 <link rel="self" type="application/atom+xml" href="http://status.segmentfault.com/feeds.xml" />
 <id>http://status.segmentfault.com/feeds.xml</id>
 <creativeCommons:license>http://www.creativecommons.org/licenses/by-sa/2.5/rdf</creativeCommons:license>
+<entry>
+<title type="text">2014年9月23日更新</title>
+<link rel="alternate" type="text/html" href="http://status.segmentfault.com/posts/changelog_2014-09-23.html" />
+<id>http://status.segmentfault.com/posts/changelog_2014-09-23.html</id>
+<updated>2014-09-23T00:00:00+08:00</updated>
+<published>2014-09-23T00:00:00+08:00</published>
+<author>
+<name>Logecho</name>
+<uri>http://status.segmentfault.com/</uri>
+</author>
+<category scheme="/archives.html#category-changelog" term="更新" />
+<summary type="html">
+
+&lt;p&gt;[bug] 修正markdown过滤不严造成的xs&lt;br&gt;
+[bug] 修复上线脚本错误&lt;br&gt;
+[bug] 已关闭问题仍可回答和评论&lt;br&gt;
+[bug] 博客申请无处理&lt;/p&gt;
+
+&lt;p&gt;[feature] 编辑器大幅更新&lt;br&gt;
+[feature] 添加子站列表&lt;br&gt;
+[feature] 改进问答列表投票样式，改进配色&lt;br&gt;
+[feature] 改进事件提醒归档方式, 使其更加清晰&lt;br&gt;
+[feature] 改进事件提醒标记已读&lt;/p&gt;
+</summary>
+</entry>
 <entry>
 <title type="text">2014年9月22日更新</title>
 <link rel="alternate" type="text/html" href="http://status.segmentfault.com/posts/changelog_2014-09-22.html" />
