@@ -4,11 +4,59 @@ xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule"
 >
 <title type="text">My Blog Site</title>
 <subtitle type="text">Yet another logecho site</subtitle>
-<updated>2014-09-23T00:00:00+08:00</updated>
+<updated>2014-09-26T00:00:00+08:00</updated>
 <link rel="alternate" type="text/html" href="http://status.segmentfault.com/" />
 <link rel="self" type="application/atom+xml" href="http://status.segmentfault.com/feeds.xml" />
 <id>http://status.segmentfault.com/feeds.xml</id>
 <creativeCommons:license>http://www.creativecommons.org/licenses/by-sa/2.5/rdf</creativeCommons:license>
+<entry>
+<title type="text">2014年9月26日更新</title>
+<link rel="alternate" type="text/html" href="http://status.segmentfault.com/posts/changelog_2014-09-26.html" />
+<id>http://status.segmentfault.com/posts/changelog_2014-09-26.html</id>
+<updated>2014-09-26T00:00:00+08:00</updated>
+<published>2014-09-26T00:00:00+08:00</published>
+<author>
+<name>Logecho</name>
+<uri>http://status.segmentfault.com/</uri>
+</author>
+<category scheme="/archives.html#category-changelog" term="更新" />
+<summary type="html">
+&lt;p&gt;[bug] 修复了form的错误信息自动清除
+[bug] 修正了事件异常引起的队列崩溃
+[bug] 改进了上线打包机制&lt;/p&gt;
+&lt;p&gt;[feature] 优化了撰写页tag自动补全
+[feature] 优化了编辑器的DOM结构
+[feature] 优化编辑器撰写
+[feature] 增加我关注的问题&lt;/p&gt;
+</summary>
+</entry>
+<entry>
+<title type="text">2014年9月25日更新</title>
+<link rel="alternate" type="text/html" href="http://status.segmentfault.com/posts/changelog_2014-09-25.html" />
+<id>http://status.segmentfault.com/posts/changelog_2014-09-25.html</id>
+<updated>2014-09-25T00:00:00+08:00</updated>
+<published>2014-09-25T00:00:00+08:00</published>
+<author>
+<name>Logecho</name>
+<uri>http://status.segmentfault.com/</uri>
+</author>
+<category scheme="/archives.html#category-changelog" term="更新" />
+<summary type="html">
+&lt;p&gt;[bug] 修复城市输入时回车提交表单
+[bug] 修正舍弃草稿按钮的双击bug
+[bug] 修正返回顶部可能被其他元素遮挡
+[bug] 修正一些链接错误
+[bug] 修复了编辑器全屏后高度无法调整
+[bug] 修复了编辑器中tab = 4 spaces
+[bug] 增加首页缓存&lt;/p&gt;
+&lt;p&gt;[feature] 改进了编辑器的DOM结构
+[feature] 改进了榜单页全部排名的文案
+[feature] 增加微信分享
+[feature] 草稿和邀请页列表若为空则不显示舍弃按钮
+[feature] 调整手机端顶部为固定且点击可以返回顶部
+[feature] 主体内站外链接打开新标签页&lt;/p&gt;
+</summary>
+</entry>
 <entry>
 <title type="text">2014年9月23日更新</title>
 <link rel="alternate" type="text/html" href="http://status.segmentfault.com/posts/changelog_2014-09-23.html" />
@@ -21,16 +69,14 @@ xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule"
 </author>
 <category scheme="/archives.html#category-changelog" term="更新" />
 <summary type="html">
-
-&lt;p&gt;[bug] 修正markdown过滤不严造成的xs&lt;br&gt;
-[bug] 修复上线脚本错误&lt;br&gt;
-[bug] 已关闭问题仍可回答和评论&lt;br&gt;
+&lt;p&gt;[bug] 修正markdown过滤不严造成的xs
+[bug] 修复上线脚本错误
+[bug] 已关闭问题仍可回答和评论
 [bug] 博客申请无处理&lt;/p&gt;
-
-&lt;p&gt;[feature] 编辑器大幅更新&lt;br&gt;
-[feature] 添加子站列表&lt;br&gt;
-[feature] 改进问答列表投票样式，改进配色&lt;br&gt;
-[feature] 改进事件提醒归档方式, 使其更加清晰&lt;br&gt;
+&lt;p&gt;[feature] 编辑器大幅更新
+[feature] 添加子站列表
+[feature] 改进问答列表投票样式，改进配色
+[feature] 改进事件提醒归档方式, 使其更加清晰
 [feature] 改进事件提醒标记已读&lt;/p&gt;
 </summary>
 </entry>
@@ -46,41 +92,39 @@ xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule"
 </author>
 <category scheme="/archives.html#category-changelog" term="更新" />
 <summary type="html">
-
-&lt;p&gt;[bug] 修正登录时无法记录状态的问题&lt;br&gt;
-[bug] 再次修正浏览数据问题&lt;br&gt;
-[bug] 修正判断不严导致的重复绑定第三方账号问题&lt;br&gt;
-[bug] 修正搜索时出现奇怪符号以及搜索结果不正确的问题&lt;br&gt;
-[bug] 修正点赞数据错误的问题&lt;br&gt;
-[bug] 修正登录后跳转url错误的问题&lt;br&gt;
-[bug] 修正设置提醒邮件选项却无实际效果&lt;br&gt;
-[bug] 修复生成图片预览链接的时候产生的复制图片&lt;br&gt;
-[bug] 修复手机页面可以横向滑动的问题&lt;br&gt;
-[bug] 修复 favicon 图片权限问题&lt;br&gt;
-[bug] 修复搜索结果页面侧栏第三方搜索引擎链接&lt;br&gt;
-[bug] 修复个人 profile 符号转义问题&lt;br&gt;
-[bug] 修复回答问题的编辑器不支持tab触发，改为focus后渲染&lt;br&gt;
-[bug] 修复撰写页面tag重复渲染&lt;br&gt;
-[bug] 修复消息页消息点击后变灰&lt;!--more--&gt;&lt;br&gt;
-[bug] 用户个人设置页面修改已存在用户报错&lt;br&gt;
-[bug] 个人博客页面不显示已隐藏和旧版草稿&lt;br&gt;
+&lt;p&gt;[bug] 修正登录时无法记录状态的问题
+[bug] 再次修正浏览数据问题
+[bug] 修正判断不严导致的重复绑定第三方账号问题
+[bug] 修正搜索时出现奇怪符号以及搜索结果不正确的问题
+[bug] 修正点赞数据错误的问题
+[bug] 修正登录后跳转url错误的问题
+[bug] 修正设置提醒邮件选项却无实际效果
+[bug] 修复生成图片预览链接的时候产生的复制图片
+[bug] 修复手机页面可以横向滑动的问题
+[bug] 修复 favicon 图片权限问题
+[bug] 修复搜索结果页面侧栏第三方搜索引擎链接
+[bug] 修复个人 profile 符号转义问题
+[bug] 修复回答问题的编辑器不支持tab触发，改为focus后渲染
+[bug] 修复撰写页面tag重复渲染
+[bug] 修复消息页消息点击后变灰&amp;lt;!--more--&amp;gt;
+[bug] 用户个人设置页面修改已存在用户报错
+[bug] 个人博客页面不显示已隐藏和旧版草稿
 [bug] 子站提问没有默认标签&lt;/p&gt;
-
-&lt;p&gt;[feature] 增加问题关注接口&lt;br&gt;
-[feature] 干掉顶部欢迎语句&lt;br&gt;
-[feature] 增加删除收藏夹时的文案提醒&lt;br&gt;
-[feature] 增加声望过低投票的提示&lt;br&gt;
-[feature] 增加子站提问时强制绑定子站标签&lt;br&gt;
-[feature] 增加评论提交过程中禁用提交按钮&lt;br&gt;
-[featrue] 增加修改密码时的确认密码及新密码的填写&lt;br&gt;
-[feature] 增加问题的关注&lt;br&gt;
-[feature] 申请博客页面提交的路由&lt;br&gt;
-[feature] 改进标签延迟加载速度&lt;br&gt;
-[feature] 改进 event 页面移动端展示&lt;br&gt;
-[feature] 改进表单聚焦样式&lt;br&gt;
-[feature] 简化投票写法，添加读屏器识别特性&lt;br&gt;
-[feature] 强化标签列表样式结构&lt;br&gt;
-[feature] 改进评论 markdown 样式&lt;br&gt;
+&lt;p&gt;[feature] 增加问题关注接口
+[feature] 干掉顶部欢迎语句
+[feature] 增加删除收藏夹时的文案提醒 
+[feature] 增加声望过低投票的提示
+[feature] 增加子站提问时强制绑定子站标签
+[feature] 增加评论提交过程中禁用提交按钮
+[featrue] 增加修改密码时的确认密码及新密码的填写
+[feature] 增加问题的关注
+[feature] 申请博客页面提交的路由
+[feature] 改进标签延迟加载速度
+[feature] 改进 event 页面移动端展示
+[feature] 改进表单聚焦样式
+[feature] 简化投票写法，添加读屏器识别特性
+[feature] 强化标签列表样式结构
+[feature] 改进评论 markdown 样式
 [feature] 改进未安装flash插件时不再显示代码的copy功能&lt;/p&gt;
 </summary>
 </entry>
@@ -96,41 +140,39 @@ xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule"
 </author>
 <category scheme="/archives.html#category-changelog" term="更新" />
 <summary type="html">
-
-&lt;p&gt;[bug] 修正邮件中的链接错误&lt;br&gt;
-[bug] 修正Markdown的不安全代码过滤不严导致的XSS问题&lt;br&gt;
-[bug] 修正邀请注册链接失效问题&lt;br&gt;
-[bug] 修正草稿页面显示问题&lt;br&gt;
-[bug] 恢复问题和文章的浏览数据&lt;br&gt;
-[bug] 修正草稿编辑时的XSS问题&lt;br&gt;
-[bug] 修正搜索特殊字符时出现的错误&lt;br&gt;
-[bug] 修正评论url跳转出现404的错误&lt;br&gt;
-[bug] 修正提问或者写文章可以使用空白字符的问题&lt;!-- more --&gt;&lt;br&gt;
-[bug] 修正个性网址可以输入中文的问题&lt;br&gt;
-[bug] 修正blog.sf.gg的不正常跳转&lt;br&gt;
-[bug] 修复用户绑定解绑的ajax错误&lt;br&gt;
-[bug] 修复用户下拉菜单被其他元素遮挡&lt;br&gt;
-[bug] 修复部分站内图片没有加显示原图链接&lt;br&gt;
-[bug] 修复编辑页面标签的显示错位&lt;br&gt;
-[bug] 从收藏消息进入文章详情不显示评论的错误&lt;br&gt;
-[bug] 修复about页面的链接&lt;br&gt;
-[bug] 修复空标题空内容的自动保存&lt;br&gt;
-[bug] 修复 tag popover 文字对齐&lt;br&gt;
-[bug] 修复 about 页面 blog 错误地址&lt;br&gt;
-[bug] 修复答案详情页图片 100% 宽度问题&lt;br&gt;
-[bug] 修复消息页跳转之后的对产生消息的内容的提示&lt;br&gt;
-[bug] 修复Firefox下撰写页面添加标签自动补全&lt;br&gt;
+&lt;p&gt;[bug] 修正邮件中的链接错误
+[bug] 修正Markdown的不安全代码过滤不严导致的XSS问题
+[bug] 修正邀请注册链接失效问题
+[bug] 修正草稿页面显示问题
+[bug] 恢复问题和文章的浏览数据
+[bug] 修正草稿编辑时的XSS问题
+[bug] 修正搜索特殊字符时出现的错误
+[bug] 修正评论url跳转出现404的错误
+[bug] 修正提问或者写文章可以使用空白字符的问题&amp;lt;!-- more --&amp;gt;
+[bug] 修正个性网址可以输入中文的问题
+[bug] 修正blog.sf.gg的不正常跳转
+[bug] 修复用户绑定解绑的ajax错误
+[bug] 修复用户下拉菜单被其他元素遮挡
+[bug] 修复部分站内图片没有加显示原图链接
+[bug] 修复编辑页面标签的显示错位
+[bug] 从收藏消息进入文章详情不显示评论的错误
+[bug] 修复about页面的链接
+[bug] 修复空标题空内容的自动保存
+[bug] 修复 tag popover 文字对齐
+[bug] 修复 about 页面 blog 错误地址
+[bug] 修复答案详情页图片 100% 宽度问题
+[bug] 修复消息页跳转之后的对产生消息的内容的提示
+[bug] 修复Firefox下撰写页面添加标签自动补全
 [bug] 修复撰写页面跳转前弹出未保存提示&lt;/p&gt;
-
-&lt;p&gt;[feature] 当用户在网址后面加上斜杠&lt;code&gt;/&lt;/code&gt;时, 帮助用户跳转到正确的页面&lt;br&gt;
-[feature] 改进了个人设置页form提交的实现&lt;br&gt;
-[feature] 增加了微信分享弹窗的关闭按钮&lt;br&gt;
-[feature] 增加顶部提示栏关闭按钮&lt;br&gt;
-[feature] 文章问题页面顶部添加“编辑”链接&lt;br&gt;
-[feature] 改进子站侧栏展示&lt;br&gt;
-[feature] 改进微博邀请的内容&lt;br&gt;
-[feature] 改进个人设置form的提交方式&lt;br&gt;
-[feature] 邀请注册的页面&lt;br&gt;
+&lt;p&gt;[feature] 当用户在网址后面加上斜杠&lt;code&gt;/&lt;/code&gt;时, 帮助用户跳转到正确的页面
+[feature] 改进了个人设置页form提交的实现
+[feature] 增加了微信分享弹窗的关闭按钮
+[feature] 增加顶部提示栏关闭按钮
+[feature] 文章问题页面顶部添加“编辑”链接
+[feature] 改进子站侧栏展示
+[feature] 改进微博邀请的内容
+[feature] 改进个人设置form的提交方式
+[feature] 邀请注册的页面
 [feature] 调整未登录底部登录按钮在小屏的样式&lt;/p&gt;
 </summary>
 </entry>
